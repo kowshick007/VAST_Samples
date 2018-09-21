@@ -16,10 +16,13 @@
       </Pricing>
       <AdTitle>iabtechlab video ad</AdTitle>
       <AdVerifications>
-        <Verification>
-          <JavaScriptResource>
+        <Verification vendor="adnxs">
+          <JavaScriptResource apiFramework="omid" browserOptional="true">
             <![CDATA[https://acdn.adnxs.com/mobile/omsdk/static/v1/omid-validation-verification-script-v1.js]]>
           </JavaScriptResource>
+          <VerificationParameters>
+            <![CDATA[ k=v ]]>
+          </VerificationParameters>
         </Verification>
         <Verification>
           <JavaScriptResource>
