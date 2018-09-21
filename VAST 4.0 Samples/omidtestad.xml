@@ -18,7 +18,7 @@
       <AdVerifications>
         <Verification>
           <JavaScriptResource>
-            <![CDATA[https://verificationcompany1.com/verification_script1.js]]>
+            <![CDATA[https://acdn.adnxs.com/mobile/omsdk/static/v1/omid-validation-verification-script-v1.js]]>
           </JavaScriptResource>
         </Verification>
         <Verification>
