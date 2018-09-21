@@ -24,11 +24,6 @@
             <![CDATA[ k=v ]]>
           </VerificationParameters>
         </Verification>
-        <Verification>
-          <JavaScriptResource>
-            <![CDATA[https://verificationcompany.com/untrusted.js]]>
-          </JavaScriptResource>
-        </Verification>
       </AdVerifications>
       <Advertiser>IAB Sample Company</Advertiser>
       <Category authority="foo" />
