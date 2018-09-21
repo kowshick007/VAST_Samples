@@ -21,7 +21,7 @@
             <![CDATA[https://acdn.adnxs.com/mobile/omsdk/static/v1/omid-validation-verification-script-v1.js]]>
           </JavaScriptResource>
           <VerificationParameters>
-            <![CDATA[ k=v ]]>
+            <![CDATA[k=v]]>
           </VerificationParameters>
         </Verification>
         <Verification>
