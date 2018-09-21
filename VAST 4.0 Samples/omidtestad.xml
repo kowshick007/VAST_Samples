@@ -1,0 +1,85 @@
+<VAST version="4.0" xmlns:xs="https://www.w3.org/2001/XMLSchema" xmlns="https://www.iab.com/VAST">
+  <Ad id="20001" sequence="1" conditionalAd="false">
+    <InLine>
+      <AdSystem version="4.0">adnxs</AdSystem>
+      <Error>http://nym1-mobile.adnxs.com/vast_track/v2?info=YwAAAAMArgAFAQmQEqRbAAAAABFqP4MoywT7MBmQEqRbAAAAACDfkNkoKAAwvgc4vgdAyOc9SNfg6QFQyenVBlgBYgItLWgBcAF4AIABAIgBAJABrAKYAfoBoAEAqAHfkNko&s=8c277a30f23c9ec90bb0b5e69d74013775d1e906&event_type=5</Error>
+      <Extensions>
+        <Extension type="adnxs-Count">
+          <total_available>
+            <![CDATA[ 2 ]]>
+          </total_available>
+        </Extension>
+      </Extensions>
+      <Impression id="Impression-ID">http://nym1-mobile.adnxs.com/vast_track/v2?info=YwAAAAMArgAFAQmQEqRbAAAAABFqP4MoywT7MBmQEqRbAAAAACDfkNkoKAAwvgc4vgdAyOc9SNfg6QFQyenVBlgBYgItLWgBcAF4AIABAIgBAJABrAKYAfoBoAEAqAHfkNko&s=8c277a30f23c9ec90bb0b5e69d74013775d1e906&event_type=2</Impression>
+      <Pricing model="cpm" currency="USD">
+        <![CDATA[ 25.00 ]]>
+      </Pricing>
+      <AdTitle>adnxs video ad</AdTitle>
+      <AdVerifications>
+        <Verification vendor="appnexus.com-omid">
+          <JavaScriptResource apiFramework="omid" browserOptional="true">
+            <![CDATA[ https://acdn.adnxs.com/mobile/omsdk/static/v1/omid-validation-verification-script-v1.js ]]>
+          </JavaScriptResource>
+          <TrackingEvents>
+            <Tracking event="verificationNotExecuted">
+              <![CDATA[http://nym1-mobile.adnxs.com/vast_track/v2?info=YwAAAAMArgAFAQmQEqRbAAAAABFqP4MoywT7MBmQEqRbAAAAACDfkNkoKAAwvgc4vgdAyOc9SNfg6QFQyenVBlgBYgItLWgBcAF4AIABAIgBAJABrAKYAfoBoAEAqAHfkNko&s=8c277a30f23c9ec90bb0b5e69d74013775d1e906&event_type=8]]>
+            </Tracking>
+          </TrackingEvents>
+          <VerificationParameters>
+            <![CDATA[ k=v ]]>
+          </VerificationParameters>
+        </Verification>
+      </AdVerifications>
+      <Advertiser>Test Company</Advertiser>
+      <Category authority="foo"/>
+      <Creatives>
+        <Creative id="5480" sequence="1" adId="2447226">
+          <UniversalAdId idRegistry="Ad-ID" idValue="8465">8465</UniversalAdId>
+          <Linear>
+            <Duration>00:00:16</Duration>
+            <MediaFiles>
+              <MediaFile id="612525" delivery="progressive" type="video/x-flv" width="768" height="432" scalable="true" bitrate="500" maintainAspectRatio="true">
+                <![CDATA[https://vcdn.adnxs.com/p/creative-video/ef/a6/d0/bb/efa6d0bb-8c19-44a8-b140-4b0bc2e02087/efa6d0bb-8c19-44a8-b140-4b0bc2e02087_768_432_500k.flv]]>
+              </MediaFile>
+              <MediaFile id="612526" delivery="progressive" type="video/mp4" width="768" height="432" scalable="true" bitrate="1700" maintainAspectRatio="true">
+                <![CDATA[https://vcdn.adnxs.com/p/creative-video/ef/a6/d0/bb/efa6d0bb-8c19-44a8-b140-4b0bc2e02087/efa6d0bb-8c19-44a8-b140-4b0bc2e02087_768_432_1700k.mp4]]>
+              </MediaFile>
+              <MediaFile id="612527" delivery="progressive" type="video/mp4" width="768" height="432" scalable="true" bitrate="500" maintainAspectRatio="true">
+                <![CDATA[https://vcdn.adnxs.com/p/creative-video/ef/a6/d0/bb/efa6d0bb-8c19-44a8-b140-4b0bc2e02087/efa6d0bb-8c19-44a8-b140-4b0bc2e02087_768_432_500k.mp4]]>
+              </MediaFile>
+              <MediaFile id="612528" delivery="progressive" type="video/webm" width="1280" height="720" scalable="true" bitrate="2000" maintainAspectRatio="true">
+                <![CDATA[https://vcdn.adnxs.com/p/creative-video/ef/a6/d0/bb/efa6d0bb-8c19-44a8-b140-4b0bc2e02087/efa6d0bb-8c19-44a8-b140-4b0bc2e02087_1280_720_2000k.webm]]>
+              </MediaFile>
+              <MediaFile id="612529" delivery="progressive" type="video/x-flv" width="768" height="432" scalable="true" bitrate="1100" maintainAspectRatio="true">
+                <![CDATA[https://vcdn.adnxs.com/p/creative-video/ef/a6/d0/bb/efa6d0bb-8c19-44a8-b140-4b0bc2e02087/efa6d0bb-8c19-44a8-b140-4b0bc2e02087_768_432_1100k.flv]]>
+              </MediaFile>
+              <MediaFile id="612530" delivery="progressive" type="video/webm" width="1280" height="720" scalable="true" bitrate="600" maintainAspectRatio="true">
+                <![CDATA[https://vcdn.adnxs.com/p/creative-video/ef/a6/d0/bb/efa6d0bb-8c19-44a8-b140-4b0bc2e02087/efa6d0bb-8c19-44a8-b140-4b0bc2e02087_1280_720_600k.webm]]>
+              </MediaFile>
+              <MediaFile id="612531" delivery="progressive" type="video/webm" width="768" height="432" scalable="true" bitrate="500" maintainAspectRatio="true">
+                <![CDATA[https://vcdn.adnxs.com/p/creative-video/ef/a6/d0/bb/efa6d0bb-8c19-44a8-b140-4b0bc2e02087/efa6d0bb-8c19-44a8-b140-4b0bc2e02087_768_432_500k.webm]]>
+              </MediaFile>
+              <MediaFile id="612532" delivery="progressive" type="video/mp4" width="1280" height="720" scalable="true" bitrate="500" maintainAspectRatio="true">
+                <![CDATA[https://vcdn.adnxs.com/p/creative-video/ef/a6/d0/bb/efa6d0bb-8c19-44a8-b140-4b0bc2e02087/efa6d0bb-8c19-44a8-b140-4b0bc2e02087_1280_720_500k.mp4]]>
+              </MediaFile>
+              <MediaFile id="612533" delivery="progressive" type="video/mp4" width="768" height="432" scalable="true" bitrate="1100" maintainAspectRatio="true">
+                <![CDATA[https://vcdn.adnxs.com/p/creative-video/ef/a6/d0/bb/efa6d0bb-8c19-44a8-b140-4b0bc2e02087/efa6d0bb-8c19-44a8-b140-4b0bc2e02087_768_432_1100k.mp4]]>
+              </MediaFile>
+              <MediaFile id="612534" delivery="progressive" type="video/webm" width="768" height="432" scalable="true" bitrate="1500" maintainAspectRatio="true">
+                <![CDATA[https://vcdn.adnxs.com/p/creative-video/ef/a6/d0/bb/efa6d0bb-8c19-44a8-b140-4b0bc2e02087/efa6d0bb-8c19-44a8-b140-4b0bc2e02087_768_432_1500k.webm]]>
+              </MediaFile>
+              <MediaFile id="612535" delivery="progressive" type="video/mp4" width="1280" height="720" scalable="true" bitrate="1100" maintainAspectRatio="true">
+                <![CDATA[https://vcdn.adnxs.com/p/creative-video/ef/a6/d0/bb/efa6d0bb-8c19-44a8-b140-4b0bc2e02087/efa6d0bb-8c19-44a8-b140-4b0bc2e02087_1280_720_1100k.mp4]]>
+              </MediaFile>
+            </MediaFiles>
+            <VideoClicks>
+              <ClickThrough id="blog">
+                <![CDATA[https://www.appnexus.com]]>
+              </ClickThrough>
+            </VideoClicks>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
