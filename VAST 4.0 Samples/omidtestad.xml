@@ -1,63 +1,33 @@
-<VAST version="4.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.iab.com/VAST">
-  <Ad id="20001" sequence="1" conditionalAd="false">
-    <InLine>
-      <AdSystem version="4.0">iabtechlab</AdSystem>
-      <Error>http://example.com/error</Error>
-      <Extensions>
-        <Extension type="iab-Count">
-          <total_available>
-            <![CDATA[ 2 ]]>
-          </total_available>
-        </Extension>
-      </Extensions>
-      <Impression id="Impression-ID">http://example.com/track/impression</Impression>
-      <Pricing model="cpm" currency="USD">
-        <![CDATA[ 25.00 ]]>
-      </Pricing>
-      <AdTitle>iabtechlab video ad</AdTitle>
-      <AdVerifications>
-        <Verification vendor="adnxs">
-          <JavaScriptResource apiFramework="omid" browserOptional="true">
-            <![CDATA[https://acdn.adnxs.com/mobile/omsdk/static/v1/omid-validation-verification-script-v1.js]]>
-          </JavaScriptResource>
-          <VerificationParameters>
-            <![CDATA[ k=v ]]>
-          </VerificationParameters>
-        </Verification>
-      </AdVerifications>
-      <Advertiser>IAB Sample Company</Advertiser>
-      <Category authority="foo" />
-      <Creatives>
-        <Creative id="5480" sequence="1" adId="2447226">
-          <UniversalAdId idRegistry="Ad-ID" idValue="8465">8465</UniversalAdId>
-          <Linear>
-            <TrackingEvents>
-              <Tracking event="start" offset="12:22:11">http://example.com/tracking/start</Tracking>
-              <Tracking event="firstQuartile">http://example.com/tracking/firstQuartile</Tracking>
-              <Tracking event="midpoint">http://example.com/tracking/midpoint</Tracking>
-              <Tracking event="thirdQuartile">http://example.com/tracking/thirdQuartile</Tracking>
-              <Tracking event="complete">http://example.com/tracking/complete</Tracking>
-            </TrackingEvents>
-            <Duration>00:00:16</Duration>
-            <MediaFiles>
-              <MediaFile id="5241" delivery="progressive" type="video/mp4" bitrate="2000" width="1280" height="720" minBitrate="1500" maxBitrate="2500" scalable="1" maintainAspectRatio="1" codec="0">
-                <![CDATA[https://iabtechlab.com/wp-content/uploads/2016/07/VAST-4.0-Short-Intro.mp4]]>
-              </MediaFile>
-              <MediaFile id="5244" delivery="progressive" type="video/mp4" bitrate="1000" width="854" height="480" minBitrate="700" maxBitrate="1500" scalable="1" maintainAspectRatio="1" codec="0">
-                <![CDATA[https://iabtechlab.com/wp-content/uploads/2017/12/VAST-4.0-Short-Intro-mid-resolution.mp4]]>
-              </MediaFile>
-              <MediaFile id="5246" delivery="progressive" type="video/mp4" bitrate="600" width="640" height="360" minBitrate="500" maxBitrate="700" scalable="1" maintainAspectRatio="1" codec="0">
-                <![CDATA[https://iabtechlab.com/wp-content/uploads/2017/12/VAST-4.0-Short-Intro-low-resolution.mp4]]>
-              </MediaFile>
-            </MediaFiles>
-            <VideoClicks>
-              <ClickThrough id="blog">
-                <![CDATA[https://iabtechlab.com]]>
-              </ClickThrough>
-            </VideoClicks>
-          </Linear>
-        </Creative>
-      </Creatives>
-    </InLine>
-  </Ad>
+<VAST version="2.0">
+	<Ad id="preroll-1">
+		<InLine>
+		<AdSystem>2.0</AdSystem>
+		<AdTitle>5748406</AdTitle>
+		<Impression id="blah">
+		<![CDATA[
+		http://b.scorecardresearch.com/b?C1=1&C2=6000003&C3=0000000200500000197000000&C4=us&C7=http://www.scanscout.com&C8=scanscout.com&C9=http://www.scanscout.com&C10=xn&rn=-103217130
+		]]>
+		</Impression>
+		<Creatives>
+			<Creative>
+				<Linear>
+					<Duration>00:00:30</Duration>
+					<TrackingEvents></TrackingEvents>
+					<VideoClicks>
+					<ClickThrough id="scanscout">
+					<![CDATA[ http://www.target.com ]]>
+					</ClickThrough>
+					</VideoClicks>
+					<MediaFiles>
+						<MediaFile height="396" width="600" bitrate="496" type="video/mp4" delivery="progressive">
+							<![CDATA[https://iabtechlab.com/wp-content/uploads/2016/07/VAST-4.0-Short-Intro.mp4]]>
+						</MediaFile>
+					</MediaFiles>
+				</Linear>
+			</Creative>
+			<Creative>
+			</Creative>
+		</Creatives>
+		</InLine>
+	</Ad>
 </VAST>
